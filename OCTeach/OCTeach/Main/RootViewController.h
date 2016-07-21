@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  OCTeach
 //
 //  Created by wangjian on 16/7/21.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
+
++(instancetype)instance;
 
 @end
-
