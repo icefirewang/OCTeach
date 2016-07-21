@@ -1,4 +1,5 @@
 # OCTeach   （iOS 纯代码 项目）
+# 项目地址: [Github](https://github.com/icefirewang/OCTeach)
  
 # 第一课   开局
 
@@ -13,6 +14,6 @@
 
 ## 知识点
  * 单例
-*  prefixHeader.pc
+*  prefixHeader.pch
 
 
