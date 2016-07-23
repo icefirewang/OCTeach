@@ -1,0 +1,10 @@
+PODS:
+  - OCFWebServer (1.0.0)
+
+DEPENDENCIES:
+  - OCFWebServer (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  OCFWebServer: 17057bb028dbd8b7e8cb199ac0a878404ab7a5c7
+
+COCOAPODS: 0.39.0

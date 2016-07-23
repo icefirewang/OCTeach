@@ -1,5 +1,5 @@
 # OCTeach   （iOS 纯代码 项目）
-# 项目地址: [Github](https://github.com/icefirewang/OCTeach)
+# 项目地址: [GitHub](https://github.com/icefirewang/OCTeach)
  
 # 第一课   开局
 
@@ -37,3 +37,18 @@
 * ReactiveCocoa ( 。。。后面解释）
 * MJExtension ( Dictionary / Array 转对象的库）
 * MJRefresh  ( 一个 scroll view 的上拉 下拉库，主要用于 tableview）
+
+# 第三课  登录注册界面，及封装 http 访问类
+# 步骤
+* 1 创建 登录注册的 导航控制器
+* 2 创建 登录注册控制器
+* 3 画界面
+* 4 封装 http 访问类
+* 5 测试HTTP访问类 (可以用 OCFWebServer 搭建一个简易服务器）
+* 6 让 工程 支持 HTTP 访问（ 默认只支持HTTPS)
+
+
+## 知识点
+* group name 和文件夹可以取中文名（不推荐）
+* 不能在 ctrler还没有展示出来的时候，用该ctrler 进行 presentViewController
+* block 

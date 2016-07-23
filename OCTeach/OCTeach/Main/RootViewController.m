@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "LoginRegistNaviController.h"
 
 @interface RootViewController ()
 
@@ -16,10 +17,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
+    
+   
+    
+    
 }
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+
+    [self autoLogin];
+ 
+}
+
+
+/**
+ *  @author 王健, 16-07-23 07:07:02
+ *
+ *  自动登录，根据历史 用户名密码，进行自动登录
+ */
+-(void)autoLogin
+{
+    // 自动登录
+    
+    // 失败，弹出 登录页
+    LoginRegistNaviController *navi = [[LoginRegistNaviController  alloc] init];
+    [self presentViewController:navi animated:YES completion:nil];
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
